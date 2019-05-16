@@ -18,7 +18,19 @@ background: grey;
 .header,
 .content,
 .sidebar,
-.wrapper {
+.wrapper,
+.nav {
   margin-bottom: 50px;
   text-align: center;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.nav li {
+  list-style: none;
+  padding: 20px;
 }
