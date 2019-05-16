@@ -1,13 +1,18 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 body{
-background: #c2d6d6;
+background: #F5F5F5;
 }
 
 .wrapper {
   width: 100%;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 .header {
@@ -20,23 +25,36 @@ background: #c2d6d6;
 .sidebar,
 .wrapper,
 .nav {
-  margin-bottom: 50px;
-  text-align: center;
+  margin-bottom: 10px;
+  text-align: flex-start;
+  color: #2F4F4F;
 }
 
 .nav ul {
   display: flex;
-  justify-content: center;
-  background: #a3c2c2;
+  width: 100%;
+  justify-content: space-around;
+  background: #DCDCDC;
 }
 
 .nav li {
   list-style: none;
   padding: 15px;
+
 }
 
 .pineapple {
+  height: 300px;
+  border-radius: 6px;
+  float: right;
+  margin-bottom: 100px;
+}
+
+.footer nav ul {
+  display: flex;
   width: 100%;
-  max-width: 250px;
-  border-radius: 40px;
+  list-style: none;
+  padding: 15px;
+  justify-content: space-around;
+  background: #DCDCDC;
 }
