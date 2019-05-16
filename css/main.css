@@ -1,6 +1,6 @@
 
 body{
-background: grey;
+background: #c2d6d6;
 }
 
 .wrapper {
@@ -27,10 +27,16 @@ background: grey;
 .nav ul {
   display: flex;
   justify-content: center;
-  align-content: flex-start;
+  background: #a3c2c2;
 }
 
 .nav li {
   list-style: none;
-  padding: 20px;
+  padding: 15px;
+}
+
+.pineapple {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 40px;
 }
